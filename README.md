@@ -1,16 +1,70 @@
-# React + Vite
+# 🎬 AI Movie Recommender Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern AI-powered movie recommendation frontend built using React, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* React.js
+* Vite
+* Tailwind CSS
+* Axios
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* AI movie recommendation UI
+* Responsive design
+* Modern Netflix-inspired interface
+* Search movie preferences
+* Loading animations
+* Error handling
+* Dynamic recommendation cards
 
-## Expanding the ESLint configuration
+## 📂 Folder Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+src/
+├── Components/
+├── Pages/
+├── Services/
+├── App.jsx
+├── main.jsx
+└── index.css
+
+## ⚙️ Setup
+
+### Clone Repo
+
+```bash
+git clone https://github.com/YOUR_USERNAME/movie-ai-client.git
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Run Development Server
+
+```bash
+npm run dev
+```
+
+## 🌐 Environment Variables
+
+Create `.env`
+
+```env
+VITE_API_URL=https://your-backend-url.onrender.com
+```
+
+## 🚀 Deployment
+
+Frontend deployed on Vercel.
+
+## 📸 Preview
+
+AI-powered movie recommendations with beautiful UI and responsive experience.
+
+## 👨‍💻 Author
+
+Rajeev Bartwal
